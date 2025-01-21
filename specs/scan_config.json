@@ -1,0 +1,48 @@
+{
+    "urls": [
+      "<string>",
+      "<string>"
+    ],
+    "name": "<string>",
+    "scope": {
+      "include": [
+        {
+          "rule": "<string>"
+        },
+        {
+          "rule": "<string>"
+        }
+      ],
+      "exclude": [
+        {
+          "rule": "<string>"
+        },
+        {
+          "rule": "<string>"
+        }
+      ]
+    },
+    "application_logins": [
+      {
+        "username": "<string>",
+        "password": "<string>"
+      },
+      {
+        "username": "<string>",
+        "password": "<string>"
+      }
+    ],
+    "scan_configurations": [
+      {
+        "name": "<string>"
+      },
+      {
+        "name": "<string>"
+      }
+    ],
+    "resource_pool": "<string>",
+    "scan_callback": {
+      "url": "<string>"
+    },
+    "protocol_option": "httpAndHttps"
+  }
